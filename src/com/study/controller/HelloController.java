@@ -5,7 +5,7 @@ import com.study.annotation.DIYMapping;
 
 @DIYController
 public class HelloController {
-	@DIYMapping(value = "hello")
+	@DIYMapping(value = "/hello")
 	public String doHello() {
          return "hello";
 	}
